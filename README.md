@@ -8,11 +8,11 @@ In this exercise you will implement linear search and binary search algorithms f
 
 The linear search algorithm works by checking every value in a list or an array one at a time, starting from index 0.
 
-In the `Main`-class, implement a method `def linear_search(self, books, searched_id)`, which searches the list it received as a parameter, for a book with an `id` variable that matches the value of `searched_id` variable it received as a parameter. If that book is found, the method, should return the index it's located at in the list it received as a parameter. If the book isn't found, the method should return the value `-1`.
+In the main program, implement a method `def linear_search(self, books, searched_id)`, which searches the list it received as a parameter, for a book with an `id` variable that matches the value of `searched_id` variable it received as a parameter. If that book is found, the method, should return the index it's located at in the list it received as a parameter. If the book isn't found, the method should return the value `-1`.
 
 ## Binary search
 
-In the `Main`-class, implement a method `def binary_search(self, books, searched_id)`, which searches the list it received as a parameter, for a book with an `id` variable that matches the value of `searched_id` variable it received as a parameter. If that book is found the method, should return the index it's located at, in the list it received as a parameter. If the book isn't found, the method should return the value `-1`.
+In the main program, implement a method `def binary_search(self, books, searched_id)`, which searches the list it received as a parameter, for a book with an `id` variable that matches the value of `searched_id` variable it received as a parameter. If that book is found the method, should return the index it's located at, in the list it received as a parameter. If the book isn't found, the method should return the value `-1`.
 
 The method must be implemented as a binary search, which assumes the list is ordered. You should also assume, that the `id`s towards the beginning of the list, are always smaller than the `id`s towards the end of the list.
 
@@ -50,3 +50,5 @@ return value -1
 ```
 
 Note that in the case of books, you are examining the values the books `id`-variables.  Meaning that in this exercise, instead of examining the value at an index, you should examine the value of the `id`-variable of the value found at the index.
+
+**NB** You're free to structure your program the way you want. There is no automatic testing for this exercise past syntax checking, so you should test your code before committing it.
